@@ -1,7 +1,6 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { Lightbulb } from "lucide-react";
 import { useAuth } from "@/context/authContext";
-import { useMutation } from "@tanstack/react-query";
 import { logoutUser } from "@/api/auth";
 
 const Header = () => {

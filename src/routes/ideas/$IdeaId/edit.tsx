@@ -2,7 +2,6 @@ import { createFileRoute, useNavigate, Link } from '@tanstack/react-router'
 import { useMutation, queryOptions, useSuspenseQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 import { fetchIdea, editIdea } from '@/api/ideas'
-import type { Idea } from '@/types'
 
 const ideaQueryOptions = (ideaId:string) => queryOptions({
     queryKey:['idea', ideaId],

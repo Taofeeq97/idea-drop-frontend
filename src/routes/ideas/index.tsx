@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { fetchIdeas } from '@/api/ideas'
 import type { Idea } from '@/types'
 import { queryOptions, useSuspenseQuery } from '@tanstack/react-query'

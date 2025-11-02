@@ -1,5 +1,4 @@
 import api from "@/lib/axios"
-import type { Idea } from "@/types"
 
 export const registerUser = async ({
     name,
